@@ -1,5 +1,17 @@
 
 public class Hello {
+	void btn1() {
+		System.out.println("1번 버튼 누름");
+	}
+	void btn100() {
+		System.out.println("100번 버튼 누름");
+	}
+	
+	void btn(int btn) {
+		System.out.println(btn + "번 버튼 누름");
+	}
+	
+	
 	// main 입력 후 => Ctrl + Space
 	public static void main(String[] args) {
 		// syso 입력 후 => Ctrl + Space

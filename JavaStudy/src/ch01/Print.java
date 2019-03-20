@@ -1,7 +1,7 @@
 package ch01;
 
 public class Print {
-	public static void main(String[] args) {
+	public static void print() {
 		// 실행 단축키 => Ctrl + F11
 		
 		/*
@@ -45,6 +45,10 @@ public class Print {
 		// 여러 기호의 조합
 		System.out.println("A의 점수 합은 : " + (1 + 2) + ", B의 점수 합은 : " + (3 + 4));
 		
+	}
+	
+	public static void main(String[] args) {
+		print();
 	}
 }
 
