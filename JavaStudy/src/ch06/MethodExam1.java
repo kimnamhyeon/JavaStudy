@@ -1,5 +1,6 @@
 package ch06;
 
+import java.util.Calendar;
 import java.util.Scanner;
 
 public class MethodExam1 {
@@ -26,11 +27,24 @@ public class MethodExam1 {
 		
 	}
 	
+	static int cc; // 전역변수
+	
 	public static void printStar(int count, char ch) {
+		// 지역변수
 		MethodExam1 m1 = new MethodExam1(); 
+		m1.a = 10000;
+		m1.cc = -111;
 		m1.m2();
+		Calendar c = Calendar.getInstance();
+		
+//		Calendar c = new Calendar();
+		
 		
 		System.out.println(a);
+//		Math m = new Math();
+//		m.random();
+		
+		Math.random();
 		
 		MethodExam1 m = new MethodExam1();
 		System.out.println(m.b);
