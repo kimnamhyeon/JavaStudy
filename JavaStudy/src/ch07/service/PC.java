@@ -10,8 +10,8 @@ public class PC {
 	}
 	public Member[] select() {
 		Member[] mem = new Member[5];
-		Member m = new Member();
 		for(int i = 0; i < 5; i++) {
+			Member m = new Member();
 			// DB 조회 -> 배열에 담음
 			m.id = "id" + i;
 			m.pw = "pw" + i;
