@@ -9,13 +9,15 @@ public class Notebook {
 	int price;
 	String brand;
 	float size;
+
+	
 	public void print() {
 		System.out.println(price + brand + size);
 	}
 	
 	// set 역할 메소드 / get 역할 메소드
-	public void setSize(float s) {
-		size = s;
+	public void setSize(float size) {
+		this.size = size;
 	}
 	public float getSize() {
 		return size;
