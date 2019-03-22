@@ -10,6 +10,7 @@ public class Exam {
 			if(idx == -1) {
 				break;
 			}
+			System.out.println(idx);
 			count++;
 		}
 		System.out.println("Python °³¼ö : " + count);
